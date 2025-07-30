@@ -16,7 +16,7 @@ header {
    font-size: 2em;
    margin-top: 20px;
 }
-section{
+.chamada{
    background: rgb(130, 122, 141);
    padding-bottom: 80px;
    padding-top: 80px;
@@ -26,13 +26,32 @@ section{
 .chamada-texto{
    margin-right: 5%;
 }
+.categorias h2{
+   font-family: 'Roboto', sans-serif;
+   font-size: 16px;
+   margin-top: 20px;
+   color: white;
+}
 h2 {
    font-size: 30px;
 }
 p{
    font-size: 20px;
 }
+img {
+  height: 200px;
+}
+/* código omitido */
 
+.categoria {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.categoria-videos {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+}
 .fa-youtube {
    color: red;
    font-size: 30px;
